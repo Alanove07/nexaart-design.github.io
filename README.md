@@ -48,3 +48,76 @@
 
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+.bio, .social-links, .gallery {
+    padding: 20px;
+    background: white;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: green;
+}
+
+.hire {
+    background-color: blue;
+}
+
+.social-links a, .gallery img {
+    margin: 10px;
+    display: inline-block;
+}
+
+.gallery-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
